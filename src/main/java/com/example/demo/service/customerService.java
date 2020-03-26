@@ -11,6 +11,7 @@ public class customerService {
     private int customerIDCount = 1;
     private List<Customer> customerList = new CopyOnWriteArrayList<Customer>();
 
+    //add the customer to the list
     public Customer addCustomer(Customer customer) {
         customer.setCustomerID(customerIDCount);
         customerList.add(customer);
