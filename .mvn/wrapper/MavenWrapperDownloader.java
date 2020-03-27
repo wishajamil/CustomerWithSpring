@@ -19,7 +19,7 @@ import java.io.*;
 import java.nio.channels.*;
 import java.util.Properties;
 
-public class MavenWrapperDownloader {
+public class MavenWrapperDownloader { 
 
     private static final String WRAPPER_VERSION = "0.5.6";
     /**
